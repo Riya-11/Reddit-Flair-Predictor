@@ -14,7 +14,7 @@ reddit = praw.Reddit(client_id='#', client_secret='#',
 dirname = os.path.dirname(__file__)
 
 model = pickle.load(
-    open(os.path.join(dirname, 'model_logreg_71.sav'), 'rb'))
+    open(os.path.join(dirname, 'model_2.sav'), 'rb'))
 
 # open('E:\\MIDAS\\Flair-Detection\\model\\model_logreg_71.sav', 'rb'))
 

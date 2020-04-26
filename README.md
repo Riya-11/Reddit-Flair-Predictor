@@ -72,6 +72,57 @@ The approach taken for the task is as follows:
    8. Training and Testing on the dataset showed the **Logistic Regression** showed the best testing accuracy of **76%** when trained on the combination of **Title + Comments + Body** feature.
    9. The best model is saved and is used for prediction of the flair from the URL of the post.
     
+### Results
+
+#### Title as Feature
+
+| Machine Learning Algorithm | Test Accuracy     |
+| -------------              |:-----------------:|
+| Random Forest              | 0.583333333334    |
+| Logistic Regression        | 0.5666666666667   |
+| Linear SVM                 | 0.575             |
+| MLP                        | 0.5333333333333   |
+
+#### Body as Feature
+
+| Machine Learning Algorithm | Test Accuracy     |
+| -------------              |:-----------------:|
+| Random Forest              | 0.3               |
+| Logistic Regression        | 0.3               |
+| Linear SVM                 | 0.3               |
+| MLP                        | 0.275             |
+
+#### Comments as Feature
+
+| Machine Learning Algorithm | Test Accuracy     |
+| -------------              |:-----------------:|
+| Logistic Regression        | 0.6416666666666667|
+| Linear SVM                 | 0.5916666666666667|
+| MLP                        | 0.525             |
+
+
+#### Title and Comments combined as Feature
+
+| Machine Learning Algorithm | Test Accuracy     |
+| -------------              |:-----------------:|
+| Random Forest              | 0.633333333333333 |
+| Logistic Regression        | **0.733333333333**|
+| Linear SVM                 | 0.6916666666666667|
+| MLP                        | 0.6              |
+
+#### Title and Comments and Body combined as Feature
+
+| Machine Learning Algorithm | Test Accuracy     |
+| -------------              |:-----------------:|
+| Random Forest              | 0.65              |
+| Logistic Regression        | **0.7666666666**  |
+| Linear SVM                 | 0.725             |
+| MLP                        | 0.6583333333333   |
+
+
+
+
+
 
 ### References
 
