@@ -51,7 +51,7 @@ opt-einsum==3.2.1
 pandas==1.0.3
 parso==0.7.0
 pickleshare==0.7.5
-Pillow==7.1.2
+Pillow==9.3.0
 praw==6.5.1
 prawcore==1.0.1
 prompt-toolkit==3.0.5
